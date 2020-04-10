@@ -5,8 +5,8 @@ branding:
   icon: terminal
   color: gray-dark
 inputs:
-  path:
-    description: 'Path to the script file.'
+  pathToList:
+    description: 'Path to the file containing all paths.'
     required: true
 outputs:
   result:
