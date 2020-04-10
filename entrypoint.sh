@@ -7,8 +7,8 @@ do
     result=$?
 
     if [ $result != 0 ]; then
-       failed[i]="${path}"
-	     i=i+1
+       failed[$i]='${path}'
+	         i=i+1
     fi
 done < "${INPUT_PATH_TO_LIST}"
 
