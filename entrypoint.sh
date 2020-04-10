@@ -1,4 +1,6 @@
 #!/bin/sh
+declare -A failed
+i=0
 while IFS= read -r path || [ -n "$path" ]
 do
     fpc "$path"
