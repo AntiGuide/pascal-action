@@ -1,6 +1,6 @@
 ---
-name: 'Run Pascal script'
-description: 'This action runs Pascal script.'
+name: 'Compile Pascal script'
+description: 'This action compiles Pascal script.'
 branding:
   icon: terminal
   color: gray-dark
@@ -10,7 +10,7 @@ inputs:
     required: true
 outputs:
   result:
-    description: 'Result of the output'
+    description: 'Errors during compilations'
 runs:
   using: 'docker'
   image: 'Dockerfile'
